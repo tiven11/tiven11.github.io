@@ -1,0 +1,83 @@
+@media (max-width: 1024px) {
+  .home-section .link-boxes .box {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }/* 
+  .home-section .home-header .logo img {
+    width: 150px
+  } */
+  .home-section .home-header .logo div span {
+    font-size: 60px !important;
+  }
+  /* .yourstory-popup .pp-img,
+  .yourstory-popup .pp-description {
+    flex: 0 0 100%;
+  } */
+  /* .yourstory-popup .pp-img img {
+    height: 200px;
+  } */
+  .events-section .event-item .event-item-media,
+  .events-section .event-item .event-item-description {
+    flex: 0 0 100%;
+  }
+  .events-section .event-item .event-item-media .event-item-video {
+    padding: 5px;
+  }
+}
+@media (max-width: 960px) {
+  .ourstory-section .founders .founder-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+@media (max-width: 769px) {
+  .home-section .home-header,
+  .home-section .home-header .container {
+    height: 50vh;
+  }
+  .home-section .home-header .logo div span {
+    font-size: 50px !important;
+  }
+  .home-section .home-header .logo .logo-img {
+    display: none;
+  }
+  .home-section .aboutus .box .box-img,
+  .home-section .aboutus .box .box-content {
+    flex: 100%;
+  }
+  .home-section .link-boxes .box {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .home-section .forms-inner {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "contactus"
+      "newsletter"
+      "volunteer";
+    justify-content: center;
+  }
+  .yourstory-section .yourstory-content .box {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .yourstory-section .yourstory-content .box .box-inner {
+    margin: 10px;
+  }
+  .footer .contact-info {
+    flex: 0 0 60%;
+  }
+}
+@media (max-width: 574px) {
+  .yourstory-section .yourstory-content .box {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+@media (max-width: 481px) {
+  .ourstory-section .founders .founder-item .founder-img,
+  .ourstory-section .founders .founder-item .founder-content {
+  flex: 0 0 100%;
+  }
+}
+@media (max-width: 320px) {}
